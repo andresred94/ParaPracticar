@@ -29,7 +29,7 @@ public class RelojDigital extends Reloj {
         LocalTime now = LocalTime.now();
         return now.toString();
     }
-    // que ahgo??
+
     @Override
     public void agregarOyente(EscuchaReloj listener) {
         listeners.add(listener);

@@ -98,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681712108490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 44, ya se subio el main?">
+      <created>1681714448974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681714448974</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 55, ya se subio todo el proyecto??">
+      <created>1681714520796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681714520796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,21 +130,8 @@
     <MESSAGE value="Commit1" />
     <MESSAGE value="commit 1" />
     <MESSAGE value="commit 44" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 44" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/CasioReloj/Reloj.java</url>
-          <line>16</line>
-          <properties class="CasioReloj.Reloj" method="agregarOyente">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="commit 44, ya se subio el main?" />
+    <MESSAGE value="commit 55, ya se subio todo el proyecto??" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 55, ya se subio todo el proyecto??" />
   </component>
 </project>
