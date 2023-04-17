@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681714520796</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%">
+      <created>1681737067112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681737067112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +139,7 @@
     <MESSAGE value="commit 44" />
     <MESSAGE value="commit 44, ya se subio el main?" />
     <MESSAGE value="commit 55, ya se subio todo el proyecto??" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 55, ya se subio todo el proyecto??" />
+    <MESSAGE value="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%" />
   </component>
 </project>
