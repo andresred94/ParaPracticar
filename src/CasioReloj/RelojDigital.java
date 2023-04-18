@@ -9,11 +9,13 @@ import java.util.Set;
 public class RelojDigital extends Reloj {
     //Atributos de la clase RelojDigital
     final private Set<EscuchaReloj> listeners;
-    private Timer timer;
+    final private Timer timer;
     private String time;
 
-    //metodo constructor de la clase RelojDigital
-    public RelojDigital() {
+    /********************************************
+     * Metodos propios de la clase RelojDigital *
+     ********************************************/
+    public RelojDigital() {//metodo constructor de la clase RelojDigital
         this.listeners = new HashSet<>();
         this.time = getCurrentTime(); // inicializar la variable time con la hora actual
         this.timer = new Timer(1000, e -> {
@@ -21,15 +23,16 @@ public class RelojDigital extends Reloj {
             notificarOyente();
         });
     }
+    private String getCurrentTime() {//Metodo para obtener el tiempo que esta dentro de la clase Reloj
 
-    //Metodo para obtener el tiempo dentro de la clase Reloj Digital
-    private String getCurrentTime() {
         /*SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         return sdf.format(new Date());*/
         LocalTime now = LocalTime.now();
         return now.toString();
     }
-
+    /*****************************************************
+     * Metodos implementados de la clase abstracta Reloj *
+     *****************************************************/
     @Override
     public void agregarOyente(EscuchaReloj listener) {
         listeners.add(listener);
@@ -39,7 +42,9 @@ public class RelojDigital extends Reloj {
         listeners.remove(listener);
     }
 
-    //Metodos abstractos de la interfaz Reloj
+    /**************************************************
+     * Metodos abstractos de la clase abstracta Reloj *
+     **************************************************/
     @Override
     public void notificarOyente() {
         for (EscuchaReloj listener : listeners) {

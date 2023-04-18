@@ -6,7 +6,7 @@ public class Main {
         Dog perro1 = new Dog();
         perro1.sleep();
         perro1.animalSound();
-        perro1.cuantasPatas();
+        perro1.cuantassPatas();
         perro1.onoMatopeya();
         perro1.comiendo();
 

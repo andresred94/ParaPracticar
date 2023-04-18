@@ -1,7 +1,7 @@
 package CuentasBancarias;
 
 public class Titular {
-    //Atributos que tiene que tener el titular
+    //Atributos de la clase Titular
     private String DNI;
     private String nombre;
     private String apellido1;
