@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CuentasBancarias/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_4_23_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_4_23_8_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaAnimales/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaAnimales/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaAnimales/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaAnimales/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaAnimales/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaPerson/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarPersona/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaPerson/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarPersona/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

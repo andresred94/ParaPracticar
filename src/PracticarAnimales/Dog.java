@@ -1,4 +1,4 @@
-package PracticaAnimales;
+package PracticarAnimales;
 
 /**
  * En una clase normal si queres importar metodos de otras case tenemos que indicarlos

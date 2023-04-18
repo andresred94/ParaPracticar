@@ -1,4 +1,4 @@
-package PracticaAnimales;
+package PracticarAnimales;
 
 // Pig "implements" the Animal interface
 class Pig implements Animals {

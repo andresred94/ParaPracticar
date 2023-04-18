@@ -1,4 +1,4 @@
-package PracticaAnimales;
+package PracticarAnimales;
 
 public interface Animals {
     //Métodos sin implementar dentro la interfaz Animals

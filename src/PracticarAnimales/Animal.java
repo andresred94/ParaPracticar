@@ -1,4 +1,4 @@
-package PracticaAnimales;
+package PracticarAnimales;
 
 abstract class Animal {
     /**

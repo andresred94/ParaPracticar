@@ -1,4 +1,4 @@
-package PracticaPerson;
+package PracticarPersona;
 import java.util.Scanner;
 public class Person {
     //Herramientas
