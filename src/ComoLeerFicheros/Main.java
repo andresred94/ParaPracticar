@@ -11,6 +11,7 @@ public class Main {
          * al momento de crear el objeto de la clase la ruta donde se encuentra el archivo.
          * La ruta de este archivo tiene que tener la ruta relativa o absoluta.
          */
+        //todo buscar como hacerlo en una clase.
         //Try Catch para escribir en un fichero
         /*try (FileWriter fw = new FileWriter("./src/ComoLeerFicheros/fichero1.txt")) {
             fw.write("Esta es una prueba de como escribir en un archivo");
@@ -29,6 +30,7 @@ public class Main {
          * Para leer un archivo es casi exactamente igual que como se escribte pero cambiando
          * a la clase FileReader con el metodo read().
          */
+        //Todo implementarlo en una clase
         //try cath para leer un fichero
         /*try (FileReader fr = new FileReader("./src/ComoLeerFicheros/fichero1.txt")) {
             int caracter;
@@ -49,6 +51,8 @@ public class Main {
          * del array
          */
         // Como leer el contenido de una carpeta
+        //Todo Implementarlo en una clase
+        //Todo Buscar como hacerlo para que se ingrese como parametro al ejecutar el codigo
         File dr = new File("D:\\");
         if (dr.exists() && dr.isDirectory()){
             File [] files = dr.listFiles();
@@ -58,6 +62,9 @@ public class Main {
         } else {
             System.out.println("No se encuentra el directorio");
         }
+
+
+
     }
 
 
