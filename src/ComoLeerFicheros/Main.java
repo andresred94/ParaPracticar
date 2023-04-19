@@ -12,11 +12,11 @@ public class Main {
          * La ruta de este archivo tiene que tener la ruta relativa o absoluta.
          */
         //Try Catch para escribir
-        /*try (FileWriter fw = new FileWriter("./src/ComoLeerFicheros/fichero1.txt")) {
+        try (FileWriter fw = new FileWriter("./src/ComoLeerFicheros/fichero1.txt")) {
             fw.write("Esta es una prueba de como escribir en un archivo");
         } catch (IOException e) {
             System.out.println("Error al encontrar el arhivo");
-        }*/
+        }
 
         /**
          * Para leer un archivo es casi exactamente igual que como se escribte pero cambiando
