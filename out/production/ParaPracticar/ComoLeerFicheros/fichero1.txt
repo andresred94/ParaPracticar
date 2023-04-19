@@ -1,1 +1,1 @@
-Esta es una prueba de como escribir en un archivo
+Esta es una prueba de como escribir en un archivo Es una prueba con caracteres aunque un string tambien tiene  numero 1
