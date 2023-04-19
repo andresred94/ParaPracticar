@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
-      <change afterPath="$PROJECT_DIR$/src/ComoLeerFicheros/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComoLeerFicheros/fichero1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt">
+      <change beforePath="$PROJECT_DIR$/src/ComoLeerFicheros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComoLeerFicheros/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681808529917</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt">
+      <created>1681890245517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681890245517</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +180,7 @@
     <MESSAGE value="18/04/2023 -" />
     <MESSAGE value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
     <MESSAGE value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
-    <option name="LAST_COMMIT_MESSAGE" value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
+    <MESSAGE value="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt" />
   </component>
 </project>
