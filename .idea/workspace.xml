@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla">
+    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
+      <change afterPath="$PROJECT_DIR$/src/ComoLeerFicheros/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComoLeerFicheros/fichero1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +29,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,27 +44,27 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/andres/Documentos/Programacion/ParaPracticar/ParaPracticar/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/home/andres/Documentos/Programacion/ParaPracticar/ParaPracticar/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681804660042</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
+      <created>1681808500086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681808500086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
+      <created>1681808529917</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681808529917</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +174,7 @@
     <MESSAGE value="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%" />
     <MESSAGE value="18/04/2023 -" />
     <MESSAGE value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
-    <option name="LAST_COMMIT_MESSAGE" value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
+    <MESSAGE value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
+    <option name="LAST_COMMIT_MESSAGE" value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
   </component>
 </project>
