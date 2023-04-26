@@ -32,14 +32,14 @@ public class Main {
          */
         //Todo implementarlo en una clase
         //try cath para leer un fichero
-        /*try (FileReader fr = new FileReader("./src/ComoLeerFicheros/fichero1.txt")) {
+        try (FileReader fr = new FileReader("./src/ComoLeerFicheros/fichero1.txt")) {
             int caracter;
             while  ((caracter=fr.read()) != -1){
                 System.out.print((char)caracter);
             }
         } catch (IOException e) {
             System.out.println("Error al encontrar el archivo");
-        }*/
+        }
 
         /**
          * Para poder leer el contenido de un  directorio se utiliza una clase diferente
@@ -53,7 +53,7 @@ public class Main {
         // Como leer el contenido de una carpeta
         //Todo Implementarlo en una clase
         //Todo Buscar como hacerlo para que se ingrese como parametro al ejecutar el codigo
-        File dr = new File("D:\\");
+        /*File dr = new File("D:\\");
         if (dr.exists() && dr.isDirectory()){
             File [] files = dr.listFiles();
             for (File archivo: files) {
@@ -61,7 +61,7 @@ public class Main {
             }
         } else {
             System.out.println("No se encuentra el directorio");
-        }
+        }*/
 
 
 
