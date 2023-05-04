@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683212457325</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="04/05/2023 - Ejercicio 1 resuelto pero necesita mejoras">
+      <created>1683212514078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683212514078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
     <MESSAGE value="04/03/2023 - Ejercicio 1 resuelto pero requiere mejoras" />
     <MESSAGE value="04/05/2023 - Practicas de ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Practicas de ArrayList" />
+    <MESSAGE value="04/05/2023 - Ejercicio 1 resuelto pero necesita mejoras" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Ejercicio 1 resuelto pero necesita mejoras" />
   </component>
 </project>
