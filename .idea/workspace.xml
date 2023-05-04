@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="04/05/2023 - Practicas de ArrayList">
+    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +42,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="andresred94 &lt;bravocastro.andresmartin@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,9 +58,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2OQ4um8pluBCwePTSl5lt0zwk7W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +67,6 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -56,7 +76,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
@@ -138,98 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681804660042</updated>
     </task>
-    <task id="LOCAL-00010" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
-      <created>1681808500086</created>
+    <task id="LOCAL-00010" summary="04/05/2023 - Practicas de ArrayList">
+      <created>1683212457325</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1681808500086</updated>
+      <updated>1683212457325</updated>
     </task>
-    <task id="LOCAL-00011" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
-      <created>1681808529917</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1681808529917</updated>
-    </task>
-    <task id="LOCAL-00012" summary="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt">
-      <created>1681890245517</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1681890245517</updated>
-    </task>
-    <task id="LOCAL-00013" summary="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros">
-      <created>1681890888399</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1681890888399</updated>
-    </task>
-    <task id="LOCAL-00014" summary="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros">
-      <created>1681891004290</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681891004290</updated>
-    </task>
-    <task id="LOCAL-00015" summary="19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)">
-      <created>1681893608135</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1681893608135</updated>
-    </task>
-    <task id="LOCAL-00016" summary="19/04/2023 - To-Do añadidos">
-      <created>1681893849757</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1681893849757</updated>
-    </task>
-    <task id="LOCAL-00017" summary="19/04/2023 - To-Do añadidos">
-      <created>1681893860153</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1681893860153</updated>
-    </task>
-    <task id="LOCAL-00018" summary="19/04/2023 - sin cambios importantes">
-      <created>1681894955992</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1681894955992</updated>
-    </task>
-    <task id="LOCAL-00019" summary="19/04/2023 - sin cambios importantes">
-      <created>1681903210202</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1681903210202</updated>
-    </task>
-    <task id="LOCAL-00020" summary="19/04/2023 - sin cambios importantes">
-      <created>1682325850935</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1682325850935</updated>
-    </task>
-    <task id="LOCAL-00021" summary="19/04/2023 - sin cambios importantes">
-      <created>1682504996572</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1682504996572</updated>
-    </task>
-    <task id="LOCAL-00022" summary="04/05/2023 - Practicas de ArrayList">
-      <created>1683199175294</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1683199175294</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +180,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit1" />
     <MESSAGE value="commit 1" />
     <MESSAGE value="commit 44" />
@@ -253,12 +188,7 @@
     <MESSAGE value="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%" />
     <MESSAGE value="18/04/2023 -" />
     <MESSAGE value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
-    <MESSAGE value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
-    <MESSAGE value="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt" />
-    <MESSAGE value="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros" />
-    <MESSAGE value="19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)" />
-    <MESSAGE value="19/04/2023 - To-Do añadidos" />
-    <MESSAGE value="19/04/2023 - sin cambios importantes" />
+    <MESSAGE value="04/03/2023 - Ejercicio 1 resuelto pero requiere mejoras" />
     <MESSAGE value="04/05/2023 - Practicas de ArrayList" />
     <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Practicas de ArrayList" />
   </component>

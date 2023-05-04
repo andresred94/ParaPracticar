@@ -1,0 +1,467 @@
+Index: src/CuentasBancarias/Titular.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CuentasBancarias;\n\npublic class Titular {\n    //Atributos de la clase Titular\n    private String DNI;\n    private String nombre;\n    private String apellido1;\n    private String apellido2;\n\n    //metodos Getter\n    public String getDNI() {\n        return DNI;\n    }\n    public String getNombre() {\n        return nombre;\n    }\n    public String getApellido2() {\n        return apellido2;\n    }\n    public String getApellido1() {\n        return apellido1;\n    }\n\n    //Metodos Setter\n    public void setDNI(String DNI) {\n        this.DNI = DNI;\n    }\n    public void setNombre(String nombre) {\n        this.nombre = nombre;\n    }\n    public void setApellido1(String apellido1) {\n        this.apellido1 = apellido1;\n    }\n    public void setApellido2(String apellido2) {\n        this.apellido2 = apellido2;\n    }\n\n    //Metodos generales\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CuentasBancarias/Titular.java b/src/CuentasBancarias/Titular.java
+--- a/src/CuentasBancarias/Titular.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/CuentasBancarias/Titular.java	(date 1683208736638)
+@@ -35,5 +35,16 @@
+         this.apellido2 = apellido2;
+     }
+ 
++    //metodos constructores
++    public Titular(String DNI, String nombre, String apellido1, String apellido2) {
++        this.DNI = DNI;
++        this.nombre = nombre;
++        this.apellido1 = apellido1;
++        this.apellido2 = apellido2;
++    }
++
++
+     //Metodos generales
++
++
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f5664441-088f-4710-80a2-57eeb6098ef5\" name=\"Changes\" comment=\"04/05/2023 - Practicas de ArrayList\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Enum\" />\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2OQ4um8pluBCwePTSl5lt0zwk7W\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n    <option name=\"showVisibilityIcons\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/home/andres/Documentos/Programacion/ParaPracticar/ParaPracticar/src&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\n      &quot;directory&quot;,\n      &quot;module&quot;,\n      &quot;repository&quot;\n    ]\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f5664441-088f-4710-80a2-57eeb6098ef5\" name=\"Changes\" comment=\"\" />\n      <created>1681479698109</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1681479698109</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"commit 1\">\n      <created>1681710288088</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681710288088</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"commit 1\">\n      <created>1681712088627</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681712088627</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"commit 44\">\n      <created>1681712108490</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681712108490</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"commit 44, ya se subio el main?\">\n      <created>1681714448974</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681714448974</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"commit 55, ya se subio todo el proyecto??\">\n      <created>1681714520796</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681714520796</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"17.04.23 = Estado de inicio del código sin errores y funcionando al 100%\">\n      <created>1681737067112</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681737067112</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"18/04/2023 -\">\n      <created>1681800112516</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681800112516</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"18/04/2023 -\">\n      <created>1681800148999</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681800148999</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla\">\n      <created>1681804660042</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681804660042</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.\">\n      <created>1681808500086</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681808500086</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.\">\n      <created>1681808529917</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681808529917</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt\">\n      <created>1681890245517</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681890245517</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros\">\n      <created>1681890888399</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681890888399</updated>\n    </task>\n    <task id=\"LOCAL-00014\" summary=\"19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros\">\n      <created>1681891004290</created>\n      <option name=\"number\" value=\"00014\" />\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681891004290</updated>\n    </task>\n    <task id=\"LOCAL-00015\" summary=\"19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)\">\n      <created>1681893608135</created>\n      <option name=\"number\" value=\"00015\" />\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681893608135</updated>\n    </task>\n    <task id=\"LOCAL-00016\" summary=\"19/04/2023 - To-Do añadidos\">\n      <created>1681893849757</created>\n      <option name=\"number\" value=\"00016\" />\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681893849757</updated>\n    </task>\n    <task id=\"LOCAL-00017\" summary=\"19/04/2023 - To-Do añadidos\">\n      <created>1681893860153</created>\n      <option name=\"number\" value=\"00017\" />\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681893860153</updated>\n    </task>\n    <task id=\"LOCAL-00018\" summary=\"19/04/2023 - sin cambios importantes\">\n      <created>1681894955992</created>\n      <option name=\"number\" value=\"00018\" />\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681894955992</updated>\n    </task>\n    <task id=\"LOCAL-00019\" summary=\"19/04/2023 - sin cambios importantes\">\n      <created>1681903210202</created>\n      <option name=\"number\" value=\"00019\" />\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681903210202</updated>\n    </task>\n    <task id=\"LOCAL-00020\" summary=\"19/04/2023 - sin cambios importantes\">\n      <created>1682325850935</created>\n      <option name=\"number\" value=\"00020\" />\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682325850935</updated>\n    </task>\n    <task id=\"LOCAL-00021\" summary=\"19/04/2023 - sin cambios importantes\">\n      <created>1682504996572</created>\n      <option name=\"number\" value=\"00021\" />\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1682504996572</updated>\n    </task>\n    <task id=\"LOCAL-00022\" summary=\"04/05/2023 - Practicas de ArrayList\">\n      <created>1683199175294</created>\n      <option name=\"number\" value=\"00022\" />\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1683199175294</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"23\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"Commit1\" />\n    <MESSAGE value=\"commit 1\" />\n    <MESSAGE value=\"commit 44\" />\n    <MESSAGE value=\"commit 44, ya se subio el main?\" />\n    <MESSAGE value=\"commit 55, ya se subio todo el proyecto??\" />\n    <MESSAGE value=\"17.04.23 = Estado de inicio del código sin errores y funcionando al 100%\" />\n    <MESSAGE value=\"18/04/2023 -\" />\n    <MESSAGE value=\"18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla\" />\n    <MESSAGE value=\"18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.\" />\n    <MESSAGE value=\"18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt\" />\n    <MESSAGE value=\"19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros\" />\n    <MESSAGE value=\"19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)\" />\n    <MESSAGE value=\"19/04/2023 - To-Do añadidos\" />\n    <MESSAGE value=\"19/04/2023 - sin cambios importantes\" />\n    <MESSAGE value=\"04/05/2023 - Practicas de ArrayList\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"04/05/2023 - Practicas de ArrayList\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/.idea/workspace.xml	(date 1683212464387)
+@@ -4,8 +4,25 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="04/05/2023 - Practicas de ArrayList">
++    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/CuentasBancarias/CuentaBancaria.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animal.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Animals.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Dog.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Main.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ParaPracticar/PracticarAnimales/Pig.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/EscuchaReloj.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/Reloj.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CasioReloj/RelojDigital.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/CuentaBancaria.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CuentasBancarias/Titular.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animal.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Animals.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Dog.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticarAnimales/Pig.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -25,8 +42,14 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="andresred94 &lt;bravocastro.andresmartin@gmail.com&gt;" />
++      </list>
++    </option>
+     <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -35,9 +58,7 @@
+     <option name="version" value="2" />
+   </component>
+   <component name="ProjectId" id="2OQ4um8pluBCwePTSl5lt0zwk7W" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -46,7 +67,6 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+@@ -56,7 +76,7 @@
+     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+   },
+   &quot;keyToStringList&quot;: {
+     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+@@ -138,98 +158,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681804660042</updated>
+     </task>
+-    <task id="LOCAL-00010" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
+-      <created>1681808500086</created>
++    <task id="LOCAL-00010" summary="04/05/2023 - Practicas de ArrayList">
++      <created>1683212457325</created>
+       <option name="number" value="00010" />
+       <option name="presentableId" value="LOCAL-00010" />
+       <option name="project" value="LOCAL" />
+-      <updated>1681808500086</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos.">
+-      <created>1681808529917</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681808529917</updated>
+-    </task>
+-    <task id="LOCAL-00012" summary="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt">
+-      <created>1681890245517</created>
+-      <option name="number" value="00012" />
+-      <option name="presentableId" value="LOCAL-00012" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681890245517</updated>
+-    </task>
+-    <task id="LOCAL-00013" summary="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros">
+-      <created>1681890888399</created>
+-      <option name="number" value="00013" />
+-      <option name="presentableId" value="LOCAL-00013" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681890888399</updated>
+-    </task>
+-    <task id="LOCAL-00014" summary="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros">
+-      <created>1681891004290</created>
+-      <option name="number" value="00014" />
+-      <option name="presentableId" value="LOCAL-00014" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681891004290</updated>
+-    </task>
+-    <task id="LOCAL-00015" summary="19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)">
+-      <created>1681893608135</created>
+-      <option name="number" value="00015" />
+-      <option name="presentableId" value="LOCAL-00015" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681893608135</updated>
+-    </task>
+-    <task id="LOCAL-00016" summary="19/04/2023 - To-Do añadidos">
+-      <created>1681893849757</created>
+-      <option name="number" value="00016" />
+-      <option name="presentableId" value="LOCAL-00016" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681893849757</updated>
+-    </task>
+-    <task id="LOCAL-00017" summary="19/04/2023 - To-Do añadidos">
+-      <created>1681893860153</created>
+-      <option name="number" value="00017" />
+-      <option name="presentableId" value="LOCAL-00017" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681893860153</updated>
+-    </task>
+-    <task id="LOCAL-00018" summary="19/04/2023 - sin cambios importantes">
+-      <created>1681894955992</created>
+-      <option name="number" value="00018" />
+-      <option name="presentableId" value="LOCAL-00018" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681894955992</updated>
+-    </task>
+-    <task id="LOCAL-00019" summary="19/04/2023 - sin cambios importantes">
+-      <created>1681903210202</created>
+-      <option name="number" value="00019" />
+-      <option name="presentableId" value="LOCAL-00019" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1681903210202</updated>
+-    </task>
+-    <task id="LOCAL-00020" summary="19/04/2023 - sin cambios importantes">
+-      <created>1682325850935</created>
+-      <option name="number" value="00020" />
+-      <option name="presentableId" value="LOCAL-00020" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682325850935</updated>
++      <updated>1683212457325</updated>
+     </task>
+-    <task id="LOCAL-00021" summary="19/04/2023 - sin cambios importantes">
+-      <created>1682504996572</created>
+-      <option name="number" value="00021" />
+-      <option name="presentableId" value="LOCAL-00021" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682504996572</updated>
+-    </task>
+-    <task id="LOCAL-00022" summary="04/05/2023 - Practicas de ArrayList">
+-      <created>1683199175294</created>
+-      <option name="number" value="00022" />
+-      <option name="presentableId" value="LOCAL-00022" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1683199175294</updated>
+-    </task>
+-    <option name="localTasksCounter" value="23" />
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -244,7 +180,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="Commit1" />
+     <MESSAGE value="commit 1" />
+     <MESSAGE value="commit 44" />
+@@ -253,12 +188,7 @@
+     <MESSAGE value="17.04.23 = Estado de inicio del código sin errores y funcionando al 100%" />
+     <MESSAGE value="18/04/2023 -" />
+     <MESSAGE value="18/04/2023 - Probando a añadir cuenta bancaria y mostrarlo en pantalla" />
+-    <MESSAGE value="18/04/2023 - Comentarios añadidos en todas las clase para indicar de donde vienen cada uno de ellos." />
+-    <MESSAGE value="18/04/2023 - Nueva clase para ComoLeerFicheros con la clase main y un fichero llamado fichero1.txt" />
+-    <MESSAGE value="19/04/2023 - Se crean dos TryCatch para leer y escribir un ficheros" />
+-    <MESSAGE value="19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)" />
+-    <MESSAGE value="19/04/2023 - To-Do añadidos" />
+-    <MESSAGE value="19/04/2023 - sin cambios importantes" />
++    <MESSAGE value="04/03/2023 - Ejercicio 1 resuelto pero requiere mejoras" />
+     <MESSAGE value="04/05/2023 - Practicas de ArrayList" />
+     <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Practicas de ArrayList" />
+   </component>
+Index: src/CasioReloj/Reloj.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CasioReloj;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic abstract class Reloj {\n    /*************************\n     * atributos de la clase *\n     *************************/\n    final List<EscuchaReloj> listeners = new ArrayList<>();\n\n    /********************\n     * metodos normales *\n     ********************/\n    protected void notificarOyentes(int hours, int minutes, int seconds) {\n        for (EscuchaReloj oyente : listeners) {\n            oyente.update(hours, minutes, seconds);\n        }\n    }\n    public void agregarOyente(EscuchaReloj listener) {\n        listeners.add(listener);\n    }\n    public void removeListener(EscuchaReloj listener) {\n        listeners.remove(listener);\n    }\n\n    /**********************\n     * Metodos abstractos *\n     **********************/\n    public abstract void notificarOyente();\n    public abstract void inicio();\n    public abstract void stop();\n    public abstract int getHours();\n    public abstract int getMinutes();\n    public abstract int getSeconds();\n    public abstract String getTime();\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CasioReloj/Reloj.java b/src/CasioReloj/Reloj.java
+--- a/src/CasioReloj/Reloj.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/CasioReloj/Reloj.java	(date 1683208736650)
+@@ -4,14 +4,11 @@
+ import java.util.List;
+ 
+ public abstract class Reloj {
+-    /*************************
+-     * atributos de la clase *
+-     *************************/
++    // por que no se sube a git¿
++    //atributos de la clase
+     final List<EscuchaReloj> listeners = new ArrayList<>();
+ 
+-    /********************
+-     * metodos normales *
+-     ********************/
++    //metodos normales
+     protected void notificarOyentes(int hours, int minutes, int seconds) {
+         for (EscuchaReloj oyente : listeners) {
+             oyente.update(hours, minutes, seconds);
+@@ -24,9 +21,7 @@
+         listeners.remove(listener);
+     }
+ 
+-    /**********************
+-     * Metodos abstractos *
+-     **********************/
++    //Metodos abstractos
+     public abstract void notificarOyente();
+     public abstract void inicio();
+     public abstract void stop();
+Index: src/EjerciciosColecciones/Listas/Ejercicio1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/EjerciciosColecciones/Listas/Ejercicio1/Main.java b/src/EjerciciosColecciones/Listas/Ejercicio1/Main.java
+--- a/src/EjerciciosColecciones/Listas/Ejercicio1/Main.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/EjerciciosColecciones/Listas/Ejercicio1/Main.java	(date 1683210978218)
+@@ -1,0 +1,15 @@
++package EjerciciosColecciones.Listas.Ejercicio1;
++
++public class Main {
++    /*Crea un programa que lea una lista de números enteros desde
++    teclado y los almacene en un ArrayList. A continuación, el
++    programa deberá mostrar por pantalla el número de elementos
++    de la lista y la suma de los mismos.
++    * */
++
++    public static void main(String[] args){
++        Almacenar dato1 = new Almacenar();
++        dato1.ingresarNumero();
++        dato1.mostrarNumeroElementos();
++    }
++}
+Index: src/CuentasBancarias/CuentaBancaria.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CuentasBancarias;\n\n/**\n * @author Andres Bravo\n * @version 18.04.23 - 10:47\n */\npublic class CuentaBancaria {\n    //Atributos de la cuenta bancaria\n    private int NumCuenta;\n    private int Saldo;\n    private Titular titular;\n\n    //Metodos Setter\n    public void setNumCuenta(int numCuenta) {\n        NumCuenta = numCuenta;\n    }\n    public void setSaldo(int saldo) {\n        Saldo = saldo;\n    }\n    public void setTitular(Titular titular) {\n        this.titular = titular;\n    }\n\n    //Metodos Getter\n    public int getNumCuenta() {\n        return NumCuenta;\n    }\n    public int getSaldo() {\n        return Saldo;\n    }\n    public Titular getTitular() {\n        return titular;\n    }\n\n\n    //Metodos propios de la clase\n    /**Metodo para ingresar dinero\n     *\n     */\n    private static void ingresarDinero (){\n\n    }\n\n    /**Metodo para retirar dinero\n     *\n     */\n\n    /**Metodo para añadir dinero\n     *\n     */\n\n    /**Metodo para borrar dinero\n     *\n     */\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CuentasBancarias/CuentaBancaria.java b/src/CuentasBancarias/CuentaBancaria.java
+--- a/src/CuentasBancarias/CuentaBancaria.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/CuentasBancarias/CuentaBancaria.java	(date 1683208714658)
+@@ -15,7 +15,7 @@
+         NumCuenta = numCuenta;
+     }
+     public void setSaldo(int saldo) {
+-        Saldo = saldo;
++        this.Saldo = saldo;
+     }
+     public void setTitular(Titular titular) {
+         this.titular = titular;
+@@ -35,15 +35,23 @@
+ 
+     //Metodos propios de la clase
+     /**Metodo para ingresar dinero
+-     *
++     * @param cantDinero: cantidad de dinero para ingresar
+      */
+-    private static void ingresarDinero (){
+-
++    private void ingresarDinero (int cantDinero){
++        int saldoActual = getSaldo();
++        setSaldo(cantDinero+saldoActual);
++        System.out.println("Ha añadido "+cantDinero+" euros en su cuenta.");
+     }
+ 
+     /**Metodo para retirar dinero
+-     *
++     * @param cantDinero : cantidad de dinero para retirar
+      */
++    private void retirarDinero (int cantDinero){
++        int saldoActual = getSaldo();
++        saldoActual = saldoActual-cantDinero;
++        setSaldo(saldoActual);
++        System.out.println("Ha retirado "+cantDinero+" , su saldo actual es :"+saldoActual);
++    }
+ 
+     /**Metodo para añadir dinero
+      *
+Index: src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package EjerciciosColecciones.Listas.Ejercicio1;\n\npublic class Almacenar {\n    /*Crea un programa que lea una lista de números enteros desde\n    teclado y los almacene en un ArrayList. A continuación, el\n    programa deberá mostrar por pantalla el número de elementos\n    de la lista y la suma de los mismos.\n    * */\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java b/src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java
+--- a/src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java	(date 1683212457219)
+@@ -1,10 +1,50 @@
+ package EjerciciosColecciones.Listas.Ejercicio1;
++import java.util.ArrayList;
++import java.util.Scanner;
+ 
+ public class Almacenar {
+-    /*Crea un programa que lea una lista de números enteros desde
+-    teclado y los almacene en un ArrayList. A continuación, el
+-    programa deberá mostrar por pantalla el número de elementos
+-    de la lista y la suma de los mismos.
+-    * */
++    // atributos de la clase
++    Scanner sc = new Scanner(System.in);
++    public ArrayList numEnteros;
++
++    // setter y getter
++    public ArrayList getNumEnteros() {
++        return numEnteros;
++    }
++    public void setNumEnteros(ArrayList numEnteros) {
++        this.numEnteros = numEnteros;
++    }
+ 
++    // metodos contrusctores
++    public Almacenar() {
++        numEnteros = new ArrayList<Integer>();
++    }
++
++    // métodos de la clase
++    public int pedirNumero () {
++        int numIngresado;
++        System.out.println("Ingresa un numero");
++        numIngresado = sc.nextInt();
++        return numIngresado;
++    }
++
++    public void ingresarNumero () {
++        System.out.println("Ingresa los números que desees agregar al ArrayList (presiona 'q' para terminar):");
++        String tecla;
++        tecla = sc.next();
++        //todo Unir ambas funciones pedir numero e ingresar numero
++        //todo Averiguar como salir del bucle hasta que se presiona la tecla q
++        while (tecla != "q") {
++            // se declara la variable y se le asigna el RETURN de la funcion
++            int num = pedirNumero();
++            numEnteros.add(num);
++            if (tecla.equals("q")) {
++                break;
++            }
++        }
++    }
++    public void mostrarNumeroElementos (){
++        int cantEle = numEnteros.size();
++        System.out.println("La cantidad de elementos son: "+cantEle);
++    }
+ }
+Index: src/CasioReloj/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CasioReloj;\n/**\n * @Version: 17/04/2023\n * @autor: Andres bravo\n */\n\npublic class Main {\n    public static void main(String[] args) {\n        /*\n        Se crea un objeto de la clase RelojDigital llamado clock\n         */\n        RelojDigital clock = new RelojDigital();\n        //Lo que está dentro de la funcion \"agregarOyente\" como parametro es una clase\n        //anonima de la interfaz EscuchaReloj\n        clock.agregarOyente(new EscuchaReloj() {\n        @Override\n        public void update(int hours, int minutes, int seconds) {\n                System.out.println(clock.getTime());\n            }\n        });\n        clock.inicio();\n        //Entre parentesis se muestra la cantidad de tiempo que se ejecuta la hora (10 segundos)\n        try {\n            Thread.sleep(10000);\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n        //método stop de la clase Reloj\n        clock.stop();\n\n\n    }\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CasioReloj/Main.java b/src/CasioReloj/Main.java
+--- a/src/CasioReloj/Main.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/CasioReloj/Main.java	(date 1683208736642)
+@@ -10,8 +10,6 @@
+         Se crea un objeto de la clase RelojDigital llamado clock
+          */
+         RelojDigital clock = new RelojDigital();
+-        //Lo que está dentro de la funcion "agregarOyente" como parametro es una clase
+-        //anonima de la interfaz EscuchaReloj
+         clock.agregarOyente(new EscuchaReloj() {
+         @Override
+         public void update(int hours, int minutes, int seconds) {
+@@ -19,13 +17,12 @@
+             }
+         });
+         clock.inicio();
+-        //Entre parentesis se muestra la cantidad de tiempo que se ejecuta la hora (10 segundos)
+         try {
+             Thread.sleep(10000);
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         }
+-        //método stop de la clase Reloj
++
+         clock.stop();
+ 
+ 
+Index: src/CasioReloj/RelojDigital.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CasioReloj;\nimport javax.swing.Timer;\nimport java.text.SimpleDateFormat;\nimport java.time.LocalTime;\nimport java.util.Date;\nimport java.util.HashSet;\nimport java.util.Set;\n\npublic class RelojDigital extends Reloj {\n    //Atributos de la clase RelojDigital\n    final private Set<EscuchaReloj> listeners;\n    final private Timer timer;\n    private String time;\n\n    /********************************************\n     * Metodos propios de la clase RelojDigital *\n     ********************************************/\n    public RelojDigital() {//metodo constructor de la clase RelojDigital\n        this.listeners = new HashSet<>();\n        this.time = getCurrentTime(); // inicializar la variable time con la hora actual\n        this.timer = new Timer(1000, e -> {\n            this.time = getCurrentTime(); // actualizar la variable time cada segundo\n            notificarOyente();\n        });\n    }\n    private String getCurrentTime() {//Metodo para obtener el tiempo que esta dentro de la clase Reloj\n\n        /*SimpleDateFormat sdf = new SimpleDateFormat(\"HH:mm:ss\");\n        return sdf.format(new Date());*/\n        LocalTime now = LocalTime.now();\n        return now.toString();\n    }\n    /*****************************************************\n     * Metodos implementados de la clase abstracta Reloj *\n     *****************************************************/\n    @Override\n    public void agregarOyente(EscuchaReloj listener) {\n        listeners.add(listener);\n    }\n    @Override\n    public void removeListener(EscuchaReloj listener) {\n        listeners.remove(listener);\n    }\n\n    /**************************************************\n     * Metodos abstractos de la clase abstracta Reloj *\n     **************************************************/\n    @Override\n    public void notificarOyente() {\n        for (EscuchaReloj listener : listeners) {\n            listener.update(getHours(), getMinutes(), getSeconds());\n        }\n    }\n    @Override\n    public void inicio() {\n        timer.start();\n    }\n    @Override\n    public void stop() {\n        timer.stop();\n    }\n    @Override\n    public int getHours() {\n        return Integer.parseInt(time.substring(0, 2));\n    }\n    @Override\n    public int getMinutes() {\n        return Integer.parseInt(time.substring(3, 5));\n    }\n    @Override\n    public int getSeconds() {\n        return Integer.parseInt(time.substring(6, 8));\n    }\n    @Override\n    public String getTime() {\n        return time;\n    }\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CasioReloj/RelojDigital.java b/src/CasioReloj/RelojDigital.java
+--- a/src/CasioReloj/RelojDigital.java	(revision 62b40446d007fa49f9b1772fb1da7678a7347f83)
++++ b/src/CasioReloj/RelojDigital.java	(date 1683208736654)
+@@ -25,10 +25,10 @@
+     }
+     private String getCurrentTime() {//Metodo para obtener el tiempo que esta dentro de la clase Reloj
+ 
+-        /*SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+-        return sdf.format(new Date());*/
+-        LocalTime now = LocalTime.now();
+-        return now.toString();
++        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
++        return sdf.format(new Date());
++        /*LocalTime now = LocalTime.now();
++        return now.toString();*/
+     }
+     /*****************************************************
+      * Metodos implementados de la clase abstracta Reloj *
