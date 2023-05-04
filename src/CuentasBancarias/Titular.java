@@ -35,5 +35,16 @@ public class Titular {
         this.apellido2 = apellido2;
     }
 
+    //metodos constructores
+    public Titular(String DNI, String nombre, String apellido1, String apellido2) {
+        this.DNI = DNI;
+        this.nombre = nombre;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+    }
+
+
     //Metodos generales
+
+
 }

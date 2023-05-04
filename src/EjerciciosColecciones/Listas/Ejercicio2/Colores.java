@@ -15,7 +15,7 @@ public class Colores {
     // constructores
     public Colores() {
         sc = new Scanner(System.in);
-        colors = new ArrayList<String>();
+        colors = new ArrayList<>();
     }
 
     // metodos de la clase
@@ -31,8 +31,7 @@ public class Colores {
         }
     }
     public String pedirColor() {
-        String color = sc.nextLine();
-        return color;
+        return sc.nextLine();
     }
     public void mostrarColores(){
         System.out.println("El ArrayList contiene los colores:");
@@ -62,12 +61,6 @@ public class Colores {
         }
     }
     //todo implementar los colores?
-    /*public void imprimirColores() {
 
-        for ( String coloress : colors) {
-            System.out.print(coloress.getAnsi() + coloress.getColor() + "\u001B[0m ");
-        }
-        System.out.println();
-    }*/
 
 }

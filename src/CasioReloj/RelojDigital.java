@@ -25,10 +25,10 @@ public class RelojDigital extends Reloj {
     }
     private String getCurrentTime() {//Metodo para obtener el tiempo que esta dentro de la clase Reloj
 
-        /*SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
-        return sdf.format(new Date());*/
-        LocalTime now = LocalTime.now();
-        return now.toString();
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        return sdf.format(new Date());
+        /*LocalTime now = LocalTime.now();
+        return now.toString();*/
     }
     /*****************************************************
      * Metodos implementados de la clase abstracta Reloj *
