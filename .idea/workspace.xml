@@ -179,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683213071341</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="04/05/2023 - Ejercicio 1 resuelto">
+      <created>1683213594387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213594387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="04/05/2023 - Ejercicio 2, implementar colores a los strings">
+      <created>1683216054181</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683216054181</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +220,7 @@
     <MESSAGE value="04/05/2023 - Practicas de ArrayList" />
     <MESSAGE value="04/05/2023 - Ejercicio 1 resuelto pero necesita mejoras" />
     <MESSAGE value="04/05/2023 - Ejercicio 1 resuelto" />
-    <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Ejercicio 1 resuelto" />
+    <MESSAGE value="04/05/2023 - Ejercicio 2, implementar colores a los strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Ejercicio 2, implementar colores a los strings" />
   </component>
 </project>
