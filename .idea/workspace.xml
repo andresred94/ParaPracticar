@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="19/04/2023 - sin cambios importantes">
-      <change afterPath="$PROJECT_DIR$/src/EjerciciosColecciones/Listas/Ejercicio1/Almacenar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjerciciosColecciones/Listas/Main.java" afterDir="false" />
+    <list default="true" id="f5664441-088f-4710-80a2-57eeb6098ef5" name="Changes" comment="04/05/2023 - Practicas de ArrayList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682504996572</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="04/05/2023 - Practicas de ArrayList">
+      <created>1683199175294</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683199175294</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +259,7 @@
     <MESSAGE value="19/04/2023 - añadido un manera de leer el contenido de un directorio (sin implementar en una clas)" />
     <MESSAGE value="19/04/2023 - To-Do añadidos" />
     <MESSAGE value="19/04/2023 - sin cambios importantes" />
-    <option name="LAST_COMMIT_MESSAGE" value="19/04/2023 - sin cambios importantes" />
+    <MESSAGE value="04/05/2023 - Practicas de ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/05/2023 - Practicas de ArrayList" />
   </component>
 </project>
