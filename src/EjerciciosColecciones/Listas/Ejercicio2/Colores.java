@@ -61,6 +61,5 @@ public class Colores {
         }
     }
     //todo implementar los colores?
-    //por que no se sube estoo
 
 }
